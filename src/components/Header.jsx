@@ -1,15 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "blue", color: "green", padding: "20px" }}>
       <h1> This is my first React app</h1>
-    
-    <h1> Kani waa app kayga ugu horreeya ee React</h1>
-    
     </div>
   );
-}
+};
 
-export default Header
-    
+export default Header;
